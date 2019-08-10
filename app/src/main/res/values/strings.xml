@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NoteBook</string>
+    <string name="write_addpic">添加图片</string>
+    <string name="write_share">Share</string>
+    <string name="list_top">置顶</string>
+    <string name="list_del">删除</string>
+    <string name="item_top">置顶</string>
+    <string name="item_del">删除</string>
+    <string name="item_text">Text</string>
+    <string name="item_time">Time</string>
+    <string name="pre_share">分享</string>
+    <string name="pre_save">保存本地</string>
+</resources>

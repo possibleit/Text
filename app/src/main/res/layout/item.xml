@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mcxtzhang.swipemenulib.SwipeMenuLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:clickable="true"
+    android:paddingBottom="1dp">
+    <LinearLayout
+        android:id="@+id/item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_text"
+            android:text="@string/item_text"
+            android:textSize="24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_time"
+            android:text="@string/item_time"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/item_btnTop"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="#d9dee4"
+        android:text="@string/item_top"
+        android:textColor="@android:color/white"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/item_btnUnRead"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#ecd50a"-->
+        <!--android:clickable="true"-->
+        <!--android:text="标记未读"-->
+        <!--android:textColor="@android:color/white"/>-->
+
+    <Button
+        android:id="@+id/item_btnDelete"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="@color/red_ff4a57"
+        android:text="@string/item_del"
+        android:textColor="@android:color/white"/>
+
+</com.mcxtzhang.swipemenulib.SwipeMenuLayout>
